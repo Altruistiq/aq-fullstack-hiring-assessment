@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:16
+    container_name: aq_assessment_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: app
+      POSTGRES_DB: emissions
+    ports:
+      - "5433:5432"
+    volumes:
+      - aq_assessment_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d emissions"]
+      interval: 2s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  aq_assessment_pgdata:

@@ -1,0 +1,80 @@
+{
+  "org": "acme",
+  "range": {
+    "from": "2024-01-01",
+    "to": "2025-01-01"
+  },
+  "tolerance_pct": 0.5,
+  "by_business_unit": [
+    {
+      "business_unit_id": "bu-1",
+      "name": "EMEA",
+      "total_kg_co2e": 206895.73,
+      "is_rollup": true
+    },
+    {
+      "business_unit_id": "bu-2",
+      "name": "UK Region",
+      "total_kg_co2e": 60439.38,
+      "is_rollup": true
+    },
+    {
+      "business_unit_id": "bu-3",
+      "name": "NL Region",
+      "total_kg_co2e": 107358.48,
+      "is_rollup": true
+    },
+    {
+      "business_unit_id": "bu-4",
+      "name": "DE Region",
+      "total_kg_co2e": 39097.87,
+      "is_rollup": true
+    },
+    {
+      "business_unit_id": "bu-5",
+      "name": "London Office",
+      "total_kg_co2e": 38542.16,
+      "is_rollup": false
+    },
+    {
+      "business_unit_id": "bu-6",
+      "name": "Manchester Office",
+      "total_kg_co2e": 19389.65,
+      "is_rollup": false
+    },
+    {
+      "business_unit_id": "bu-7",
+      "name": "Rotterdam Warehouse",
+      "total_kg_co2e": 105411.01,
+      "is_rollup": false
+    },
+    {
+      "business_unit_id": "bu-8",
+      "name": "Berlin HQ",
+      "total_kg_co2e": 36934.88,
+      "is_rollup": false
+    }
+  ],
+  "by_activity_type": [
+    {
+      "activity_type": "business_travel_air",
+      "total_kg_co2e": 43837.09
+    },
+    {
+      "activity_type": "diesel",
+      "total_kg_co2e": 77499.32
+    },
+    {
+      "activity_type": "electricity",
+      "total_kg_co2e": 57726.22
+    },
+    {
+      "activity_type": "natural_gas",
+      "total_kg_co2e": 13554.85
+    },
+    {
+      "activity_type": "purchased_goods_office_supplies",
+      "total_kg_co2e": 14278.25
+    }
+  ]
+}

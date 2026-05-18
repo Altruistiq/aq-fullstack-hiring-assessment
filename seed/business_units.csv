@@ -1,0 +1,9 @@
+id,name,parent_id,region
+bu-1,EMEA,,EMEA
+bu-2,UK Region,bu-1,UK
+bu-3,NL Region,bu-1,NL
+bu-4,DE Region,bu-1,DE
+bu-5,London Office,bu-2,UK
+bu-6,Manchester Office,bu-2,UK
+bu-7,Rotterdam Warehouse,bu-3,NL
+bu-8,Berlin HQ,bu-4,DE

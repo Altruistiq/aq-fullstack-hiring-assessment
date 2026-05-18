@@ -1,0 +1,32 @@
+activity_type,region,valid_from,valid_to,kg_co2e_per_unit,unit,source
+electricity,UK,2020-01-01,2023-01-01,0.233,kWh,DEFRA 2020
+electricity,UK,2023-01-01,2024-01-01,0.207,kWh,DEFRA 2023
+electricity,UK,2024-01-01,2025-01-01,0.193,kWh,DEFRA 2024
+electricity,UK,2025-01-01,2026-01-01,0.178,kWh,DEFRA 2025
+electricity,NL,2020-01-01,2023-01-01,0.395,kWh,AIB 2020
+electricity,NL,2023-01-01,2024-01-01,0.380,kWh,AIB 2023
+electricity,NL,2024-01-01,2099-12-31,0.340,kWh,AIB 2024
+electricity,DE,2020-01-01,2024-01-01,0.435,kWh,UBA 2020
+electricity,DE,2024-01-01,2099-12-31,0.420,kWh,UBA 2024
+natural_gas,UK,2020-01-01,2024-01-01,2.040,m3,DEFRA 2020
+natural_gas,UK,2024-01-01,2099-12-31,2.020,m3,DEFRA 2024
+natural_gas,NL,2020-01-01,2023-01-01,1.890,m3,RVO 2020
+natural_gas,NL,2023-01-01,2099-12-31,1.880,m3,RVO 2023
+natural_gas,DE,2020-01-01,2024-01-01,2.030,m3,UBA 2020
+natural_gas,DE,2024-01-01,2099-12-31,2.010,m3,UBA 2024
+diesel,UK,2020-01-01,2024-01-01,2.687,litres,DEFRA 2020
+diesel,UK,2024-01-01,2099-12-31,2.512,litres,DEFRA 2024
+diesel,NL,2020-01-01,2023-01-01,2.687,litres,RVO 2020
+diesel,NL,2023-01-01,2024-06-01,2.620,litres,RVO 2023
+diesel,NL,2024-06-01,2099-12-31,2.512,litres,RVO 2024
+diesel,DE,2020-01-01,2024-01-01,2.687,litres,UBA 2020
+diesel,DE,2024-01-01,2099-12-31,2.512,litres,UBA 2024
+business_travel_air,UK,2020-01-01,2024-01-01,0.246,km,DEFRA 2020
+business_travel_air,UK,2024-01-01,2025-01-01,0.250,km,DEFRA 2024
+business_travel_air,UK,2025-01-01,2099-12-31,0.255,km,DEFRA 2025
+business_travel_air,UK,2025-04-01,2025-10-01,0.262,km,DEFRA 2025 revised
+business_travel_air,NL,2020-01-01,2099-12-31,0.246,km,ICAO 2020
+business_travel_air,DE,2020-01-01,2099-12-31,0.246,km,ICAO 2020
+purchased_goods_office_supplies,UK,2020-01-01,2099-12-31,0.220,GBP,ONS 2020
+purchased_goods_office_supplies,NL,2020-01-01,2099-12-31,0.225,GBP,CBS 2020
+purchased_goods_office_supplies,DE,2020-01-01,2099-12-31,0.225,GBP,DESTATIS 2020
